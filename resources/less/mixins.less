@@ -1,0 +1,20 @@
+#setFillHeight {
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: fill-available;
+}
+
+/*Media query rules*/
+
+#maxWidthResponsive(@maxWidth; @rules) {
+    @media only screen and (max-width: @maxWidth) {
+        @rules();
+    }
+}
+
+.minWidthResponsive(@minWidth; @rules) {
+    @media only screen and (min-width: @minWidth) {
+        @rules();
+    }
+}

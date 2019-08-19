@@ -1,0 +1,49 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   font: 13px Helvetica, Arial;
+ }
+
+ #chatroom {
+   width: 80%;
+   margin: auto;
+   padding: 10px;
+   border: 1px solid #555555;
+   height: -webkit-fill-available;
+ }
+
+ #chatroom #chatform {
+   position: absolute;
+   bottom: 0;
+   width: inherit;
+   border-top: border: 1px solid #555555;
+ }
+
+ #chatroom #message {
+   display: inline-block;
+   width: 80%;
+ }
+
+ #messages {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ #messages li {
+   padding: 5px 10px;
+ }
+
+ #messages li:nth-child(odd) {
+   background: #eee;
+ }
+
+ .online {
+   color: lightgreen;
+   background-color: lightgreen;
+   border-radius: 50%;
+ }
