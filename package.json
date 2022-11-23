@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "grunt": "^1.0.4",
     "nodemon": "^1.19.1",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {
     "grunt-contrib-less": "^2.0.0",
